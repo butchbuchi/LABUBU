@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this implementation, please cite the LABUBU paper."
+type: software
+title: "LABUBU: Layer-Buffered Bundled Optimization for Distributed Quantum Computing"
+version: 0.2.0
+authors:
+  - family-names: Xu
+    given-names: Xu
+  - family-names: Liu
+    given-names: Yu
+  - family-names: Mao
+    given-names: Yingling
+  - family-names: Yang
+    given-names: Yuanyuan
+preferred-citation:
+  type: article
+  title: "Labubu: Layer-Buffered Bundled Optimization for Efficient Remote Gate Scheduling in Distributed Quantum Computing"
+  authors:
+    - family-names: Xu
+      given-names: Xu
+    - family-names: Liu
+      given-names: Yu
+    - family-names: Mao
+      given-names: Yingling
+    - family-names: Yang
+      given-names: Yuanyuan
+  journal: IEEE Transactions on Networking
+  volume: 34
+  start: 4763
+  end: 4778
+  year: 2026
+  doi: 10.1109/TON.2026.3685555

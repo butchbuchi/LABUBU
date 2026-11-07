@@ -1,0 +1,9 @@
+include README.md LICENSE NOTICE CITATION.cff CONTRIBUTING.md requirements-reproduction.txt
+recursive-include docs *.md *.txt *.json
+recursive-include benchmarks *.qasm *.json
+recursive-include examples *.qasm
+recursive-include experiments *.py *.cpp
+recursive-include results *.csv *.json *.md *.png *.pdf *.svg
+recursive-include tests *.py
+prune outputs
+recursive-exclude * __pycache__ *.pyc *.so *.dll *.dylib

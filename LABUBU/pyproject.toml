@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "labubu-dqc"
+version = "0.2.0"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Xu Xu"}]
+description = "Layer-buffered remote gate scheduling for distributed quantum computing"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+baselines = ["pandas", "scipy"]
+figures = ["pandas>=2", "matplotlib>=3.7"]
+
+[project.scripts]
+labubu = "labubu.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

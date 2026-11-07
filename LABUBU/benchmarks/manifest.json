@@ -1,0 +1,166 @@
+{
+  "inputs_sha256": {
+    "benchmarks/rd/rd80.qasm": "229e2f22be8eccba5672b5dd9fdf7c7700b10f344e32975fe7bc59b822b8fc66",
+    "benchmarks/rd/rd90.qasm": "8e1842d515bf97ba107e1d329372e98afaa528b7671c01326d537a1de3c636d9",
+    "benchmarks/rd/rd30.qasm": "5328b0623fbf6ddd34701ba3fc5df5a0769591d7f442ea97122cbc5475001458",
+    "benchmarks/rd/rd70.qasm": "51ba18497515a28bd8ae13c347ca0a34a23b86626070d103d668072bec44d248",
+    "benchmarks/rd/rd100.qasm": "d773943c8ff62f9b109dcaf702e8d036dba6c783fe09dc37b1d4e4e126e7a6da",
+    "benchmarks/rd/rd60.qasm": "6d2dd3b6b9bac38b8cfd38f0c089af34fa3e8819662e24d18671b35b77affb47",
+    "benchmarks/rd/rd50.qasm": "70263bad38ac3c6ad977a23c173f1033bbd5966f782cf22877014873f9a93b0a",
+    "benchmarks/rd/rd40.qasm": "25482c8e6e2a3510f639bf25637f057b048d2864ad5a3e220caa1d25dc436466",
+    "benchmarks/qft/qft50.qasm": "d202a5cfc89dff43254f87ff4b51640cfd366c7b48cb2e260d09e5506fc49212",
+    "benchmarks/qft/qft100.qasm": "291316e6710276171c1225696af5167e8777e45b716922f34e35b0979615aab0",
+    "benchmarks/qft/qft90.qasm": "4433b2c6b5f3b8fb69ac3e8404191891b9f5f08a1ba3c3343b651fa90a3bc25f",
+    "benchmarks/qft/qft60.qasm": "57ca1a724d017e650df629e62a7084b4a918517e6dcd8dbfe498a9b37f1121bc",
+    "benchmarks/qft/qft40.qasm": "0ccb1a55f65c8d56a3e0f38166c6d3f7e42522879f0bf17892b5b4aceead0e96",
+    "benchmarks/qft/qft30.qasm": "27507108845bd2ac21bd76f14eb7073e98b16eab27b2cb9e051f7e2d8e4ee021",
+    "benchmarks/qft/qft70.qasm": "5ee035380a355fd02f0b5167ffd248dec912843ca9d24a2a199c66d8269fbbfe",
+    "benchmarks/qft/qft80.qasm": "a1dc25334ecc5f60c6e2c7507cb23badc3f370e432fc4628caa52a1d640acb07"
+  },
+  "configurations": {
+    "QFT100_L5": {
+      "qpus": 26
+    },
+    "QFT100_L15": {
+      "qpus": 8
+    },
+    "QFT100_L25": {
+      "qpus": 5
+    },
+    "RD100_L5": {
+      "qpus": 26
+    },
+    "RD100_L15": {
+      "qpus": 8
+    },
+    "RD100_L25": {
+      "qpus": 5
+    },
+    "QFT90_L5": {
+      "qpus": 23
+    },
+    "QFT90_L15": {
+      "qpus": 7
+    },
+    "QFT90_L25": {
+      "qpus": 4
+    },
+    "RD90_L5": {
+      "qpus": 23
+    },
+    "RD90_L15": {
+      "qpus": 7
+    },
+    "RD90_L25": {
+      "qpus": 4
+    },
+    "QFT80_L5": {
+      "qpus": 21
+    },
+    "QFT80_L15": {
+      "qpus": 6
+    },
+    "QFT80_L25": {
+      "qpus": 4
+    },
+    "RD80_L5": {
+      "qpus": 21
+    },
+    "RD80_L15": {
+      "qpus": 6
+    },
+    "RD80_L25": {
+      "qpus": 4
+    },
+    "QFT70_L5": {
+      "qpus": 18
+    },
+    "QFT70_L15": {
+      "qpus": 6
+    },
+    "QFT70_L25": {
+      "qpus": 3
+    },
+    "RD70_L5": {
+      "qpus": 18
+    },
+    "RD70_L15": {
+      "qpus": 6
+    },
+    "RD70_L25": {
+      "qpus": 3
+    },
+    "QFT60_L5": {
+      "qpus": 16
+    },
+    "QFT60_L15": {
+      "qpus": 5
+    },
+    "QFT60_L25": {
+      "qpus": 3
+    },
+    "RD60_L5": {
+      "qpus": 16
+    },
+    "RD60_L15": {
+      "qpus": 5
+    },
+    "RD60_L25": {
+      "qpus": 3
+    },
+    "QFT50_L5": {
+      "qpus": 13
+    },
+    "QFT50_L15": {
+      "qpus": 4
+    },
+    "QFT50_L25": {
+      "qpus": 3
+    },
+    "RD50_L5": {
+      "qpus": 13
+    },
+    "RD50_L15": {
+      "qpus": 4
+    },
+    "RD50_L25": {
+      "qpus": 3
+    },
+    "QFT40_L5": {
+      "qpus": 11
+    },
+    "QFT40_L15": {
+      "qpus": 3
+    },
+    "QFT40_L25": {
+      "qpus": 2
+    },
+    "RD40_L5": {
+      "qpus": 11
+    },
+    "RD40_L15": {
+      "qpus": 3
+    },
+    "RD40_L25": {
+      "qpus": 2
+    },
+    "QFT30_L5": {
+      "qpus": 8
+    },
+    "QFT30_L15": {
+      "qpus": 3
+    },
+    "QFT30_L25": {
+      "qpus": 2
+    },
+    "RD30_L5": {
+      "qpus": 8
+    },
+    "RD30_L15": {
+      "qpus": 3
+    },
+    "RD30_L25": {
+      "qpus": 2
+    }
+  }
+}
