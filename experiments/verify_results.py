@@ -11,7 +11,12 @@ from labubu import read_qasm
 
 manifest=json.loads((ROOT/'benchmarks/manifest.json').read_text())
 for name,digest in manifest['inputs_sha256'].items():
-    if hashlib.sha256((ROOT/name).read_bytes()).hexdigest()!=digest:
+    raw = (ROOT/name).read_bytes()
+    # Git may convert text line endings between Windows and Linux.
+    # Accept only byte-identical input or an LF/CRLF equivalent.
+    lf = raw.replace(b'\r\n', b'\n')
+    variants = (raw, lf, lf.replace(b'\n', b'\r\n'))
+    if not any(hashlib.sha256(value).hexdigest() == digest for value in variants):
         raise RuntimeError(f'Input hash mismatch: {name}')
 groups={};cache={};total=0
 for path in sorted((ROOT/'results/fig6/runs').glob('*.json')):

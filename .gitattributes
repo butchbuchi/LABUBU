@@ -1,0 +1,2 @@
+# Preserve benchmark bytes when checking out on any platform.
+benchmarks/**/*.qasm -text
